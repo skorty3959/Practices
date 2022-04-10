@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+    {
+  int sum1=10;
+  void* u_p=NULL;
+  u_p=&sum1;
+  int* sim1_p;
+  sim1_p=(int*)u_p;
+  scanf("%d",sim1_p);
+  printf("%d",sum1);
+    }
